@@ -1,0 +1,26 @@
+{
+  "author": "Rogelio Morrell <molekilla@gmail.com>",
+  "name": "cuara",
+  "description": "Regular Expression parser using templates and models.",
+  "keywords": [
+    "regular expression",
+    "templates",
+    "parser"
+  ],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/molekilla/cuara.git"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
