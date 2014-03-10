@@ -14,13 +14,25 @@
   },
   "main": "./lib/index.js",
   "engines": {
-    "node": ">= 0.6"
+    "node": ">= 0.10"
   },
   "dependencies": {
+    "underscore": "*",
+    "highland": "~1.17.0",
+    "require-directory": "~1.2.0"
   },
   "devDependencies": {
+    "grunt": "~0.4.2",
+    "mocha": "*",
+    "chai": "*",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-mocha-test": "~0.9.3",
+    "sinon": "~1.8.2",
+    "sinon-chai": "~2.5.0"
   },
   "scripts": {
-    "test": "make test"
+    "test": "grunt test"
   }
 }
