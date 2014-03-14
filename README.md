@@ -65,7 +65,7 @@ new Cuara.Parser({
 
  ```
  
- ## Cuara.Field Options
+### Cuara Field Options
  
  ```javascript
        monthlySummaryDetail: new CuaraField({
