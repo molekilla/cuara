@@ -65,7 +65,7 @@ new Cuara.Parser({
 
  ```
  
- ##Cuara.Field Options
+ ## Cuara.Field Options
  
  ```javascript
        monthlySummaryDetail: new CuaraField({
@@ -136,3 +136,6 @@ describe('Template Spec', function(){
   });
 });
 ```
+### License
+
+Copyright 2014 Rogelio Morrell C. MIT License
